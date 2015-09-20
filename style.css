@@ -1,0 +1,339 @@
+body 
+{
+	line-height: 150%;
+}
+
+
+
+
+
+body {
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+h1{
+		color:#F2F2F2;
+		padding-left: 15px;
+}
+h2 {
+	font-size: 32px;
+	color: #c60;
+	padding-top: 4px;
+	margin-bottom: 30px;
+	padding-left: 15px;
+	}
+
+h3 {
+	color: #c60;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-left: 15px;
+	
+}
+h4{
+padding-left: 15px;
+}
+h5{
+padding-left: 4px;
+
+}
+h6{
+padding-left: 9px;
+font-size: 10px;
+
+}
+
+a {
+	color: #039;
+	}
+	a:hover {
+		color: #c60;
+	}
+
+/*--------------------
+	STRUCTURE
+--------------------*/
+
+body {
+	background: #281912 url("images/bg.jpg") no-repeat top center;
+}
+
+#pagewrap {
+	background: url("images/bg-glow.jpg") no-repeat top left;
+	width: 820px;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0 100px;
+}
+
+#header {
+	width: 800px;
+	height: 90px;
+	padding-top: 110px;
+}
+
+
+#content {
+	background: url("images/content-bg.jpg") no-repeat top center;
+	clear: left;
+	width: 822px;
+	height: 410px;
+	position: relative;
+	}
+	#content div.login {
+	
+	
+	left:30px;
+	width:822px;
+	height: 100px;
+	
+	}
+	#content div.page {
+		position: absolute;
+		top: 40px;
+		left: 30px;
+	}
+	#content div.left {
+		width: 241px;
+		height: 322px;
+		background: url("images/feature-bg.png") no-repeat top left;
+		float: left;
+	}
+	#content div.right {
+		width: 241px;
+		float: left;
+		margin-left: 20px;
+
+	}
+	#content div.saisir{
+		
+		width: 241px;
+		height: 322px;
+		background: url("images/feature-bg.png");
+		float: center;
+		box-shadow: 0px 0px 35px #DBA901;
+		
+		
+ }
+ 	#content div.score{
+		
+		width: 500px;
+		height: 322px;
+		overflow:scroll;
+		float: center;
+		
+		
+		
+ }
+
+ #content div.jeux{
+		
+		width: 241px;
+		height: 322px;
+		background: url("images/feature-bg.png") no-repeat top left;
+		box-shadow: 0px 0px 35px #DBA901;
+ }
+ #content div.don{
+		background: url("images/feature-bgr.png") no-repeat top left;
+		width: 241px;
+		height: 322px;
+		float: left;
+		
+		margin-left: 20px;
+ }
+
+
+
+/*--------------------
+	NAVIGATION
+--------------------*/
+
+ul#navigation {
+	float: right;
+	}
+	ul#navigation li {
+		float: left;
+		}
+		ul#navigation li a {
+			display: block;
+			width: 64px;
+			height: 90px;
+			text-indent: -9999px;
+			margin-left: 42px;
+			}
+			ul#navigation li a.about {
+				background: url("images/icon-about.png") no-repeat top left;
+				}
+				ul#navigation li a.about:hover {
+					background-position: top right;
+				}
+				
+			ul#navigation li a.work {
+				background: url("images/icon-work.png") no-repeat top left;
+				}
+				ul#navigation li a.work:hover {
+					background-position: top right;
+				}
+			ul#navigation li a.social {
+				background: url("images/icon-social.png") no-repeat top left;
+				}
+				ul#navigation li a.social:hover {
+					background-position: top right;
+				}
+			ul#navigation li a.contact {
+				background: url("images/icon-contact.png") no-repeat top left;
+				}
+				ul#navigation li a.contact:hover {
+					background-position: top right;
+				}
+			ul#navigation li a.jeux1 {
+				background: url("images/jeux1.png") no-repeat top left;
+				}
+				ul#navigation li a.jeux1:hover {
+					background-position: top right;
+				}
+			ul#navigation li a.jeux2 {
+				background: url("images/jeux2.png") no-repeat top left;
+				}
+				ul#navigation li a.jeux2:hover {
+					background-position: top right;
+				}
+			ul#navigation li a.score {
+				background: url("images/score.png") no-repeat top left;
+				}
+				ul#navigation li a.score:hover {
+					background-position: top right;
+					}
+			ul#navigation li a.log {
+				background: url("images/log_out.png") no-repeat top left;
+				}
+				ul#navigation li a.log:hover {
+					background-position: top right;
+				}	
+			ul#navigation li.active {
+				background: url("images/nav-underline.png") no-repeat 42px 0;
+			}
+		ul#navigation li a img {
+			list-style: none;
+			background: none;
+			border: none;
+			margin-right: 25px;
+			padding: 5px;
+		}
+
+/*--------------------
+	CONTENT - ABOUT
+--------------------*/
+
+#about img {
+	background: url("images/photobg-big.png") no-repeat top left;
+	padding: 0 5px;
+}
+
+#about ul {
+	list-style: none;
+	}
+	#about ul li {
+		float: left;
+		font-size: 18px;
+		font-weight: bold;
+		margin-right: 40px;
+		padding: 6px 10px 10px 6px;
+		}
+		#about ul li img {
+			display: block;
+		}
+
+/*--------------------
+	CONTENT - WORK
+--------------------*/
+
+#work .left img {
+	background: none;
+	padding: 6px 10px 10px 6px;
+	margin-bottom: 0;
+}
+
+#work .left h3 a {
+	color: #039;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 0 0 10px;
+	}
+	#work .left h3 a:hover {
+		color: #c60;
+	}
+#work .left p {
+	margin: -5px 0 0 10px;
+}
+
+#work h3 {
+	clear: left;
+}
+
+#work img {
+	padding: 6px;
+	background: url("images/thumb-bg.png") no-repeat top left;
+	float: left;
+	margin: 0 25px 20px 0;
+	vertical-align: bottom;
+	}
+	#work a:hover img {
+		background: url("images/thumb-bg-rol.png");
+	}
+
+/*--------------------
+	CONTENT - SOCIAL
+--------------------*/
+
+#social div.left {
+	background: url('images/feature-bg-twitter.png') no-repeat top center;
+}
+	#social .left p.tweet-text {
+		width: 222px;
+		margin: 100px 10px 0 10px;
+		font: italic 14px/21px Georgia, sans-serif;
+		text-align: center;
+	}
+	#social .left p.tweet-meta {
+		width: 222px;
+		text-align: right;
+		position: absolute;
+		bottom: 0px;
+	}
+
+#social .right ul li {
+	float: left;
+	margin: 0 20px;
+	padding-top: 40px;
+}
+
+#social .right ul li a {
+	display: block;
+	width: 195px;
+	font-size: 23px;
+	text-decoration: none;
+	}
+	#social .right ul li a img {
+		vertical-align: middle;
+	}
+
+
+input, textarea {
+	
+	border: 1px solid #999;
+	margin-bottom: 3px;
+
+	
+	}
+	textarea {
+		height: 70px;
+	}
+	
